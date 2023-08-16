@@ -427,7 +427,8 @@ footer{
 
     @media only screen and (max-width: 400px){
         .one h3{
-            left: .05rem;
+            left: 9rem;
+            margin-left: 0px;
         }
     }
 
@@ -519,6 +520,7 @@ footer{
     @media only screen and (max-width: 400px){
         .footerimg img{
             left: 6.5rem;
+            top: 61rem;
         }
     }
 
@@ -589,6 +591,12 @@ footer{
     @media only screen and (max-width: 520px){
         footer{
             top: 49rem;
+        }
+    }
+
+    @media only screen and (max-width: 400px){
+        footer{
+            top: 52rem;
         }
     }
 
