@@ -14,6 +14,7 @@ color: var(--white, #FFF);
     color: #fff;  
 }
 
+
 .head::before{
     clip-path: ellipse(100% 100% at 50% 0);
     content: "";
@@ -244,7 +245,7 @@ footer{
  
 @media only screen and (max-width: 1000px) {
     .head{
-        min-height: 30vh;
+        min-height: 20vh;
         background-color: purple;
         color: #fff;  
         border-bottom-left-radius: 10%;
@@ -275,7 +276,7 @@ footer{
         position: absolute;
         left: 60%;
         transform: translate(-50%);
-        top:50%;
+        top:55%;
     }
 
 
@@ -292,35 +293,37 @@ footer{
     .ap{
         left: 85%;
         position: absolute;
-        top: 9%;
+        top: 5%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
     .subhead2 h1{
-        font-size: 56px;
-        line-height: 60px;
+        font-size: 80px;
+        line-height: 100px;
         letter-spacing: 2px;
-        margin: 40px;
+        margin: 50px;
     }
 
     a{
-        width: 150px;
+        width: 200px;
+        height: 2rem;
         border: none;
-        font-size: 20px;
+        font-size: 30px;
         padding: 20px;
         display: block;
         text-decoration: none;
         margin: 30px auto;
         text-align: center;
+        border-radius: 2px;
     }
 
     .nums{
         background-color: #fefefe;
         margin: 10em 10px 10px 10px;
         display: block;
-        top: 10rem;
+        top: 25rem;
         position: relative;
     }
 
@@ -337,59 +340,49 @@ footer{
 
     .one p{
         margin: 0 0;
-        font-size: 20px;
+        font-size: 24px;
         padding: 10px;
         text-align: center;
     }
 
     .one h3{
+        position: relative;
+        left: 17rem;
         border: 1px solid;
         display: block;
         text-align: center;
-        align-items: center;
-        justify-content: center;
         padding: 18px;
         margin-left: 175px;
-    }
-
-    .nums .one h3{
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .overlap{
         margin: 30px;
         position: relative;
-        top: 12rem;
+        top: 32rem;
     }
 
     .purple{
         position: absolute;
-        width: 90%;
-        right: 0px;
-        top: 250px;
+        width: 75%;
+        right: 115px;
+        top: 28rem;
         padding: 15px;
         margin: 0;
-        margin-left: 80px;
-        align-items: center;
+        margin-left: 0px;
     }
 
     .overlap img{
-        width: 90%;
+        width: 80%;
         position: relative;
-        align-items: center;
-        padding-left: 17px;
+        left: 5rem;
     }
 
     .footerimg img{
         position: relative;
         margin: 50px;
-        top: 20rem;
-        left: 0rem;
+        top: 40rem;
+        left: 26rem;
         display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .purple p{
@@ -402,11 +395,11 @@ footer{
         text-align: center;
         margin-right: 40rem;
         font-size: 15px;
-        width: 40%;
+        width: 30%;
         height: 20px;
         align-items: center;
         position: relative;
-        left: 5rem;
+        left: 2rem;
     }
 
     .purple-btn:hover{
@@ -420,17 +413,13 @@ footer{
 
     footer{
         left: 0;
-        top: 12rem;
+        top: 30rem;
         margin-left: 0;
         position: relative;
         margin-bottom: 10rem;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-
-    footer img{
-        margin-left: 1rem;
     }
 
 }
