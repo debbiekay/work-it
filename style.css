@@ -278,7 +278,24 @@ footer{
         transform: translate(-50%);
         top:55%;
     }
+    @media only screen and (max-width: 810px){
+        .subhead22 img{
+            top: 68%;
+        }
+    }
 
+    @media only screen and (max-width: 520px){
+        .subhead22 img{
+            width: 78%;
+            top: 73%;
+        }
+    }
+
+    @media only screen and (max-width: 400px){
+        .subhead22 img{
+            top: 77%;
+        }
+    }
 
     .subhead1 h3{
         color: #fff;
@@ -299,11 +316,42 @@ footer{
         justify-content: center;
     }
 
+    @media only screen and (max-width: 810px){
+        .ap{
+            left: 82%;          
+        }
+    }
+
+    @media only screen and (max-width: 650px){
+        .ap{
+            left: 76%;
+        }
+    }
+
+    @media only screen and (max-width: 520px){
+        .ap{
+            left: 71%;
+        }
+    }
+
+    @media only screen and (max-width: 400px){
+        .ap{
+            left: 60%;
+        }
+    }
+
     .subhead2 h1{
         font-size: 80px;
         line-height: 100px;
         letter-spacing: 2px;
         margin: 50px;
+    }
+
+    @media only screen and (max-width: 400px){
+        .subhead2 h1{
+            font-size: 70px;
+            line-height: 80px;
+        }
     }
 
     a{
@@ -325,6 +373,12 @@ footer{
         display: block;
         top: 25rem;
         position: relative;
+    }
+
+    @media only screen and (max-width: 520px){
+        .nums{
+            margin-top: 3em;
+        }
     }
 
     .one{
@@ -355,6 +409,28 @@ footer{
         margin-left: 175px;
     }
 
+    @media only screen and (max-width: 810px){
+        .one h3{
+            left: 10rem;
+        }
+    }
+    @media only screen and (max-width: 650px){
+        .one h3{
+          left: 5rem;            
+        }
+    } 
+    @media only screen and (max-width: 520px){
+        .one h3{
+            left: 2.5rem;
+        }
+       }
+
+    @media only screen and (max-width: 400px){
+        .one h3{
+            left: .05rem;
+        }
+    }
+
     .overlap{
         margin: 30px;
         position: relative;
@@ -371,18 +447,79 @@ footer{
         margin-left: 0px;
     }
 
+    @media only screen and (max-width: 810px){
+        .purple{
+            top: 22rem;
+            right: 90px;
+        }
+    }
+
+    @media only screen and (max-width: 650px){
+        .purple{
+            top: 18rem;
+            right: 78px;
+        }
+    }
+
+    @media only screen and (max-width: 520px){
+        .purple{
+            top: 14rem;
+            right: .5rem;
+        }
+    }
+    @media only screen and (max-width: 400px){
+        .purple{
+            top: 10rem;
+            right: .05rem;
+        }
+    }
+
     .overlap img{
         width: 80%;
         position: relative;
         left: 5rem;
     }
 
+    @media only screen and (max-width: 400px){
+        .overlap img{
+            left: 3rem;            
+        }
+
+    }
+
     .footerimg img{
         position: relative;
         margin: 50px;
-        top: 40rem;
+        top: 42rem;
         left: 26rem;
         display: flex;
+    }
+
+    @media only screen and (max-width: 810px){
+        .footerimg img{
+            left: 19rem; 
+            top: 47rem;       
+        }
+    }
+
+    @media only screen and (max-width: 650px){
+        .footerimg img{
+            top: 53rem;
+            left: 14rem;
+        }
+    }
+
+    @media only screen and (max-width: 520px){
+        .footerimg img{
+            left: 10rem;
+            top: 58rem;
+        }
+    }
+
+    @media only screen and (max-width: 400px){
+        .footerimg img{
+            left: 6.5rem;
+        }
     }
 
     .purple p{
@@ -402,6 +539,21 @@ footer{
         left: 2rem;
     }
 
+    @media only screen and (max-width: 650px){
+        .purple-btn{
+            width: 40%;
+            font-size: 12px;
+        }
+    }
+
+    @media only screen and (max-width: 400px){
+        .purple-btn{
+            width: 55%;
+            font-size: 8px;
+            height: 22px;
+        }
+    }
+
     .purple-btn:hover{
         background-color: #24053E;
         border: 2px black solid;
@@ -413,13 +565,31 @@ footer{
 
     footer{
         left: 0;
-        top: 30rem;
+        top: 35rem;
         margin-left: 0;
         position: relative;
         margin-bottom: 10rem;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    @media only screen and (max-width: 810px){
+        footer{
+            top: 38rem;
+        }
+    }
+
+    @media only screen and (max-width: 650px){
+        footer{
+            top: 43rem;
+        }
+    }
+
+    @media only screen and (max-width: 520px){
+        footer{
+            top: 49rem;
+        }
     }
 
 }
